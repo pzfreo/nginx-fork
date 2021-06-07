@@ -1,0 +1,7 @@
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  name: nginx-fork
+spec:
+  path: ./
+  url: ssh://git@github.com/pzfreo/nginx-fork.git
